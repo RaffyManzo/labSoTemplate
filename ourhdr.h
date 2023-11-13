@@ -9,6 +9,8 @@
 #include	<unistd.h>		/* for convenience */
 #include	<sys/timeb.h>
 #include	<sys/time.h>
+#include <sys/wait.h>
+#include <errno.h>
 #include	<sys/resource.h>
 #include	<sys/types.h>	/* required for some of our prototypes */
 #include	<sys/stat.h>	/* per i flag della open */
